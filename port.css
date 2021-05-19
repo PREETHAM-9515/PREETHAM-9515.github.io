@@ -87,6 +87,24 @@ border-radius: 100%;
 }
 
 
+
+
+.mySlides{
+
+display:none;
+border-radius: 50px;
+border-color: grey;
+border-style: solid;
+
+
+
+}
+
+
+
+
+
+
 .contact{
 padding-left: 250px;
 padding-top: 100px;
@@ -134,7 +152,7 @@ border-top: none;
 border-left: none;
 border-right: none;
 transition: top 0.3s;
-
+z-index:1;
 
 }
 
