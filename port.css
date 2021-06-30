@@ -17,51 +17,6 @@ background-attachment: scroll;
     margin: 0;
     padding: 0;
 }
-.rate {
-    justify-content: center;
-    display: flex;
-    height: 46px;
-    padding: 0 10px;
-
-}
-.rate:not(:checked) > input {
-    position:absolute;
-    top:-9999px;
-}
-.rate:not(:checked) > label {
-    float:right;
-    width:1em;
-    overflow:hidden;
-    white-space:nowrap;
-    cursor:pointer;
-    font-size:30px;
-    color:#ccc;
-}
-.rate:not(:checked) > label:before {
-    content: '★ ';
-}
-.rate > input:checked ~ label {
-    color: #ffc700;
-}
-.rate:not(:checked) > label:hover,
-.rate:not(:checked) > label:hover ~ label {
-    color: #deb217;
-}
-.rate > input:checked + label:hover,
-.rate > input:checked + label:hover ~ label,
-.rate > input:checked ~ label:hover,
-.rate > input:checked ~ label:hover ~ label,
-.rate > label:hover ~ input:checked ~ label {
-    color: #c59b08;
-}
-
-
-
-
-.rate input label{
-  padding:50px;
-
-}
 
 
 
@@ -80,7 +35,8 @@ body{
 img{
 
 image-resolution: snap;
-border-radius: 100%;
+border-radius: 10px;
+
 
 
 
@@ -179,7 +135,7 @@ z-index:1;
 transition: 0.3s;
 text-align: center;
 font-family: sans-serif;
-display:;
+border-radius: 25px;
 font-size: 50px;
 
 }
