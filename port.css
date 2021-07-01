@@ -115,13 +115,21 @@ cursor: pointer;
 
 
 }
+
 .doyou{
 
 
-  padding-left:70%;
-  display: inline-flex;
+  float:right;
+  cursor: pointer;
   position: relative;
+  bottom:240px;
+  right:100px;
 }
+.doyou i:hover{
+  color:red;
+  
+}
+
 
 
 
