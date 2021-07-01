@@ -29,7 +29,7 @@ background-attachment: scroll;
   margin: -76px 0 0 -76px;
   border: 16px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 16px solid grey;
+  border-top:  grey;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite alternate;
 }
@@ -115,6 +115,18 @@ cursor: pointer;
 
 
 }
+.doyou{
+
+
+  padding-left:70%;
+  display: inline-flex;
+  position: relative;
+}
+
+
+
+
+
 #github:hover{
   background-color: none;
 
@@ -300,6 +312,7 @@ h4{
   color:grey;
   padding-left: 250px;
   padding-bottom: 150px;
+  font-size: 100px;
 
 }
 
